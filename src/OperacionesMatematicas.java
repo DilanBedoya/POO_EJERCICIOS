@@ -8,13 +8,13 @@ public class OperacionesMatematicas {
     }
     public void suma(int num1, int num2,int num3){
         int suma;
-        suma=num1+num2+num3;
+        suma=num1+num2+num3+5;
         System.out.println("\nMétodo 2");
         System.out.println("Num 1: "+num1 +", Num 2: "+num2+ ", Num 2: "+num3+", Suma: "+suma);
     }
     public void suma(double num1, double num2){
         double suma;
-        suma=num1+num2;
+        suma=num1+num2+2;
         System.out.println("\nMétodo 3");
         System.out.println("Num 1: "+num1 +", Num 2: "+num2+", Suma: "+suma);
     }
